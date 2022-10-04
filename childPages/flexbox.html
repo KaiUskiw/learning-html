@@ -32,9 +32,15 @@
             .header {
                 border:  3px groove teal;
                 padding: 15px;
+                font: size 4vw; ;
             }
             
-            .menu {}
+            .menu {
+                width:50%;
+                float:left;
+                padding:15px;
+                border: 1px solid teal;
+            } 
             .main {}
             .aside {}
             .footer {}
@@ -48,7 +54,12 @@
     
 
     <body>
-        <div><header>Header</header></div>
+        <div><header class="header">
+            <h1 style="font-size:5vw">Flexbox</h1>
+             <a>And Styles in the HEAD</a>
+            </header>
+        </div>
+
         <div><nav class=header> Navigation</nav></div>
         <div><aside>Aside</aside></div>
         <div><main>Main</main></div>
