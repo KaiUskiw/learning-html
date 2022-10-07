@@ -1,9 +1,19 @@
 header{
-    border: 2px solid teal
+    border: 3px solid teal
     padding 15px
 }
 
 body{
-    border:2px solid teal
-    url(https://www.behance.net/gallery/104360973/Galaxy-Backgrounds/modules/599634577)
+    border: 3px solid teal
+    padding 15px
+    url(https://i.pinimg.com/originals/33/11/92/3311924db62ceef62a4a7ee87017280f.jpg)
 }
+
+nav{
+
+}
+
+menu{
+    width:25%  
+}
+
